@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EEF5EE4537DDB9D334AA680 /* MyLabLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyLabLibrary.podspec; path = ../MyLabLibrary.podspec; sourceTree = "<group>"; };
+		0EEF5EE4537DDB9D334AA680 /* MyLabLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyLabLibrary.podspec; path = ../MyLabLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2F06E2BE1C18078F0648C730 /* Pods-MyLabLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLabLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-MyLabLibrary_Example/Pods-MyLabLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MyLabLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLabLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,8 +40,8 @@
 		607FACE51AFB9204008FA782 /* MyLabLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLabLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61F3B39CC7A1C96B41D0482C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		70EF554D55A812EED3908B81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		61F3B39CC7A1C96B41D0482C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		70EF554D55A812EED3908B81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		75563EA24B1028BC68A4C8C9 /* Pods-MyLabLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLabLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyLabLibrary_Tests/Pods-MyLabLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8411392D77CBBE7852642A4E /* Pods_MyLabLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLabLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC2CC4697D5466304238FD5 /* Pods-MyLabLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLabLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyLabLibrary_Tests/Pods-MyLabLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				75563EA24B1028BC68A4C8C9 /* Pods-MyLabLibrary_Tests.debug.xcconfig */,
 				ACC2CC4697D5466304238FD5 /* Pods-MyLabLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
